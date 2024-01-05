@@ -8,9 +8,9 @@ multiple subscription manager instances.
 
 ## Installation
 
-`npm install @zwaq/graphql-google-pubsub` 
+`npm install @selleo/graphql-google-pubsub` 
 or
-`yarn add @zwaq/graphql-google-pubsub`
+`yarn add @selleo/graphql-google-pubsub`
    
 ## Using as AsyncIterator
 
@@ -35,7 +35,7 @@ type Result {
 Now, let's create a simple `GooglePubSub` instance:
 
 ```javascript
-import { GooglePubSub } from '@zwaq/graphql-google-pubsub';
+import { GooglePubSub } from '@selleo/graphql-google-pubsub';
 const pubsub = new GooglePubSub();
 ```
 
@@ -115,7 +115,7 @@ export const resolvers = {
 ## Creating the Google PubSub Client
 
 ```javascript
-import { GooglePubSub } from '@zwaq/graphql-google-pubsub';
+import { GooglePubSub } from '@selleo/graphql-google-pubsub';
 
 const pubSub = new GooglePubSub(options, topic2SubName, commonMessageHandler)
 ```

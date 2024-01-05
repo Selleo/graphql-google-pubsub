@@ -1,11 +1,11 @@
 {
-  "name": "@zwaq/graphql-google-pubsub",
-  "version": "2.1.2",
+  "name": "@selleo/graphql-google-pubsub",
+  "version": "3.0.0",
   "description": "A graphql-subscriptions PubSub Engine using Google PubSub",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomasz-zwak/graphql-google-pubsub.git"
+    "url": "https://github.com/selleo/graphql-google-pubsub.git"
   },
   "keywords": [
     "graphql",
@@ -17,9 +17,9 @@
   "author": "Jonas Hackenberg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomasz-zwak/graphql-google-pubsub/issues"
+    "url": "https://github.com/selleo/graphql-google-pubsub/issues"
   },
-  "homepage": "https://github.com/tomasz-zwak/graphql-google-pubsub",
+  "homepage": "https://github.com/selleo/graphql-google-pubsub",
   "contributors": [
     {
       "name": "Tomasz Żwak",
